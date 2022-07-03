@@ -9,11 +9,27 @@ public class HomeController {
 	@RequestMapping("home")
 //	@ResponseBody
     public String homepage() {
-        return "web/index";  // Trả về trang index.html
+        return "web/index";  
+    }
+	@GetMapping("/index-2")
+	public String proDucts() {
+        return "web/index-2"; 
+    }
+	@GetMapping("/index-2")
+	public String proDuctDetail() {
+        return "web/index-2";  
+    }
+	@GetMapping("/index-2")
+	public String newList() {
+        return "web/index-2";  
+    }
+	@GetMapping("/index-2")
+	public String auThors() {
+        return "web/index-2";  
     }
 	@GetMapping("/index-2")
 	public String index2() {
-        return "web/index-2";  // Trả về trang index.html
+        return "web/index-2";
     }
 
 }
