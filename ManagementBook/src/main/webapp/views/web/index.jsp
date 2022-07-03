@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -73,7 +74,7 @@
 								</ul>
 							</div>
 							<div class="tg-userlogin">
-								<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/users/img-01.jpg" alt="image description"></a></figure>
+								<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/images/users/img-01.jpg" alt="image description"></a></figure>
 								<span>Hi, John</span>
 							</div>
 						</div>
@@ -84,7 +85,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<strong class="tg-logo"><a href="index-2.html"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/logo.png" alt="company name here"></a></strong>
+							<strong class="tg-logo"><a href="index-2.html"><img src="${pageContext.request.contextPath}/web/images/logo.png" alt="company name here"></a></strong>
 							<div class="tg-wishlistandcart">
 								<div class="dropdown tg-themedropdown tg-wishlistdropdown">
 									<a href="javascript:void(0);" id="tg-wishlisst" class="tg-btnthemedropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -106,7 +107,7 @@
 										<div class="tg-minicartbody">
 											<div class="tg-minicarproduct">
 												<figure>
-													<img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/products/img-01.jpg" alt="image description">
+													<img src="${pageContext.request.contextPath}/web/images/products/img-01.jpg" alt="image description">
 													
 												</figure>
 												<div class="tg-minicarproductdata">
@@ -116,7 +117,7 @@
 											</div>
 											<div class="tg-minicarproduct">
 												<figure>
-													<img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/products/img-02.jpg" alt="image description">
+													<img src="${pageContext.request.contextPath}/web/images/products/img-02.jpg" alt="image description">
 													
 												</figure>
 												<div class="tg-minicarproductdata">
@@ -126,7 +127,7 @@
 											</div>
 											<div class="tg-minicarproduct">
 												<figure>
-													<img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/products/img-03.jpg" alt="image description">
+													<img src="${pageContext.request.contextPath}/web/images/products/img-03.jpg" alt="image description">
 													
 												</figure>
 												<div class="tg-minicarproductdata">
@@ -256,7 +257,7 @@
 														</ul>
 														<ul>
 															<li>
-																<figure><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
+																<figure><img src="${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
 																<div class="tg-textbox">
 																	<h3>More Than<span>12,0657,53</span>Books Collection</h3>
 																	<div class="tg-description">
@@ -311,7 +312,7 @@
 														</ul>
 														<ul>
 															<li>
-																<figure><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
+																<figure><img src="${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
 																<div class="tg-textbox">
 																	<h3>More Than<span>12,0657,53</span>Books Collection</h3>
 																	<div class="tg-description">
@@ -366,7 +367,7 @@
 														</ul>
 														<ul>
 															<li>
-																<figure><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
+																<figure><img src="${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
 																<div class="tg-textbox">
 																	<h3>More Than<span>12,0657,53</span>Books Collection</h3>
 																	<div class="tg-description">
@@ -421,7 +422,7 @@
 														</ul>
 														<ul>
 															<li>
-																<figure><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
+																<figure><img src="${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
 																<div class="tg-textbox">
 																	<h3>More Than<span>12,0657,53</span>Books Collection</h3>
 																	<div class="tg-description">
@@ -476,7 +477,7 @@
 														</ul>
 														<ul>
 															<li>
-																<figure><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
+																<figure><img src="${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
 																<div class="tg-textbox">
 																	<h3>More Than<span>12,0657,53</span>Books Collection</h3>
 																	<div class="tg-description">
@@ -531,7 +532,7 @@
 														</ul>
 														<ul>
 															<li>
-																<figure><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
+																<figure><img src="${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
 																<div class="tg-textbox">
 																	<h3>More Than<span>12,0657,53</span>Books Collection</h3>
 																	<div class="tg-description">
@@ -586,7 +587,7 @@
 														</ul>
 														<ul>
 															<li>
-																<figure><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
+																<figure><img src="${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
 																<div class="tg-textbox">
 																	<h3>More Than<span>12,0657,53</span>Books Collection</h3>
 																	<div class="tg-description">
@@ -641,7 +642,7 @@
 														</ul>
 														<ul>
 															<li>
-																<figure><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
+																<figure><img src="${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
 																<div class="tg-textbox">
 																	<h3>More Than<span>12,0657,53</span>Books Collection</h3>
 																	<div class="tg-description">
@@ -696,7 +697,7 @@
 														</ul>
 														<ul>
 															<li>
-																<figure><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
+																<figure><img src="${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
 																<div class="tg-textbox">
 																	<h3>More Than<span>12,0657,53</span>Books Collection</h3>
 																	<div class="tg-description">
@@ -751,7 +752,7 @@
 														</ul>
 														<ul>
 															<li>
-																<figure><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
+																<figure><img src="${pageContext.request.contextPath}/web/images/img-01.png" alt="image description"></figure>
 																<div class="tg-textbox">
 																	<h3>More Than<span>12,0657,53</span>Books Collection</h3>
 																	<div class="tg-description">
@@ -836,8 +837,8 @@
 									<div class="tg-postbook">
 										<figure class="tg-featureimg">
 											<div class="tg-bookimg">
-												<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-01.jpg" alt="image description"></div>
-												<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-01.jpg" alt="image description"></div>
+												<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/images/books/img-01.jpg" alt="image description"></div>
+												<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/images/books/img-01.jpg" alt="image description"></div>
 											</div>
 											<a class="tg-btnaddtowishlist" href="javascript:void(0);">
 												<i class="icon-heart"></i>
@@ -870,8 +871,8 @@
 									<div class="tg-postbook">
 										<figure class="tg-featureimg">
 											<div class="tg-bookimg">
-												<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-02.jpg" alt="image description"></div>
-												<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-02.jpg" alt="image description"></div>
+												<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/images/books/img-02.jpg" alt="image description"></div>
+												<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/images/books/img-02.jpg" alt="image description"></div>
 											</div>
 											<a class="tg-btnaddtowishlist" href="javascript:void(0);">
 												<i class="icon-heart"></i>
@@ -904,8 +905,8 @@
 									<div class="tg-postbook tg-notag">
 										<figure class="tg-featureimg">
 											<div class="tg-bookimg">
-												<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-03.jpg" alt="image description"></div>
-												<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-03.jpg" alt="image description"></div>
+												<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/images/books/img-03.jpg" alt="image description"></div>
+												<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/images/books/img-03.jpg" alt="image description"></div>
 											</div>
 											<a class="tg-btnaddtowishlist" href="javascript:void(0);">
 												<i class="icon-heart"></i>
@@ -937,8 +938,8 @@
 									<div class="tg-postbook">
 										<figure class="tg-featureimg">
 											<div class="tg-bookimg">
-												<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-04.jpg" alt="image description"></div>
-												<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-04.jpg" alt="image description"></div>
+												<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/images/books/img-04.jpg" alt="image description"></div>
+												<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/images/books/img-04.jpg" alt="image description"></div>
 											</div>
 											<a class="tg-btnaddtowishlist" href="javascript:void(0);">
 												<i class="icon-heart"></i>
@@ -971,8 +972,8 @@
 									<div class="tg-postbook tg-notag">
 										<figure class="tg-featureimg">
 											<div class="tg-bookimg">
-												<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-05.jpg" alt="image description"></div>
-												<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-05.jpg" alt="image description"></div>
+												<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/images/books/img-05.jpg" alt="image description"></div>
+												<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/images/books/img-05.jpg" alt="image description"></div>
 											</div>
 											<a class="tg-btnaddtowishlist" href="javascript:void(0);">
 												<i class="icon-heart"></i>
@@ -1004,8 +1005,8 @@
 									<div class="tg-postbook">
 										<figure class="tg-featureimg">
 											<div class="tg-bookimg">
-												<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-06.jpg" alt="image description"></div>
-												<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-06.jpg" alt="image description"></div>
+												<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/images/books/img-06.jpg" alt="image description"></div>
+												<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/images/books/img-06.jpg" alt="image description"></div>
 											</div>
 											<a class="tg-btnaddtowishlist" href="javascript:void(0);">
 												<i class="icon-heart"></i>
@@ -1038,8 +1039,8 @@
 									<div class="tg-postbook tg-notag">
 										<figure class="tg-featureimg">
 											<div class="tg-bookimg">
-												<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-03.jpg" alt="image description"></div>
-												<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-03.jpg" alt="image description"></div>
+												<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/images/books/img-03.jpg" alt="image description"></div>
+												<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/images/books/img-03.jpg" alt="image description"></div>
 											</div>
 											<a class="tg-btnaddtowishlist" href="javascript:void(0);">
 												<i class="icon-heart"></i>
@@ -1084,7 +1085,7 @@
 					<div class="row">
 						<div class="tg-featureditm">
 							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 hidden-sm hidden-xs">
-								<figure><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/img-02.png" alt="image description"></figure>
+								<figure><img src="${pageContext.request.contextPath}/web/images/img-02.png" alt="image description"></figure>
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
 								<div class="tg-featureditmcontent">
@@ -1139,8 +1140,8 @@
 											<div class="tg-postbook">
 												<figure class="tg-featureimg">
 													<div class="tg-bookimg">
-														<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-07.jpg" alt="image description"></div>
-														<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-07.jpg" alt="image description"></div>
+														<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/images/books/img-07.jpg" alt="image description"></div>
+														<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/images/books/img-07.jpg" alt="image description"></div>
 													</div>
 													<a class="tg-btnaddtowishlist" href="javascript:void(0);">
 														<i class="icon-heart"></i>
@@ -1164,8 +1165,8 @@
 											<div class="tg-postbook">
 												<figure class="tg-featureimg">
 													<div class="tg-bookimg">
-														<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-08.jpg" alt="image description"></div>
-														<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-08.jpg" alt="image description"></div>
+														<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/images/books/img-08.jpg" alt="image description"></div>
+														<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/images/books/img-08.jpg" alt="image description"></div>
 													</div>
 													<a class="tg-btnaddtowishlist" href="javascript:void(0);">
 														<i class="icon-heart"></i>
@@ -1189,8 +1190,8 @@
 											<div class="tg-postbook">
 												<figure class="tg-featureimg">
 													<div class="tg-bookimg">
-														<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-09.jpg" alt="image description"></div>
-														<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-09.jpg" alt="image description"></div>
+														<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/images/books/img-09.jpg" alt="image description"></div>
+														<div class="tg-backcover"><img src="${pageContext.request.contextPath}/web/images/books/img-09.jpg" alt="image description"></div>
 													</div>
 													<a class="tg-btnaddtowishlist" href="javascript:void(0);">
 														<i class="icon-heart"></i>
@@ -1289,7 +1290,7 @@
 								<div class="tg-postbook">
 									<figure class="tg-featureimg">
 										<div class="tg-bookimg">
-											<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-10.jpg" alt="image description"></div>
+											<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/images/books/img-10.jpg" alt="image description"></div>
 										</div>
 										<div class="tg-hovercontent">
 											<div class="tg-description">
@@ -1317,7 +1318,7 @@
 								<div class="tg-postbook">
 									<figure class="tg-featureimg">
 										<div class="tg-bookimg">
-											<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-11.jpg" alt="image description"></div>
+											<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/images/books/img-11.jpg" alt="image description"></div>
 										</div>
 										<div class="tg-hovercontent">
 											<div class="tg-description">
@@ -1345,7 +1346,7 @@
 								<div class="tg-postbook">
 									<figure class="tg-featureimg">
 										<div class="tg-bookimg">
-											<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-12.jpg" alt="image description"></div>
+											<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/images/books/img-12.jpg" alt="image description"></div>
 										</div>
 										<div class="tg-hovercontent">
 											<div class="tg-description">
@@ -1373,7 +1374,7 @@
 								<div class="tg-postbook">
 									<figure class="tg-featureimg">
 										<div class="tg-bookimg">
-											<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-10.jpg" alt="image description"></div>
+											<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/images/books/img-10.jpg" alt="image description"></div>
 										</div>
 										<div class="tg-hovercontent">
 											<div class="tg-description">
@@ -1401,7 +1402,7 @@
 								<div class="tg-postbook">
 									<figure class="tg-featureimg">
 										<div class="tg-bookimg">
-											<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/books/img-11.jpg" alt="image description"></div>
+											<div class="tg-frontcover"><img src="${pageContext.request.contextPath}/web/images/books/img-11.jpg" alt="image description"></div>
 										</div>
 										<div class="tg-hovercontent">
 											<div class="tg-description">
@@ -1442,7 +1443,7 @@
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-push-2">
 								<div id="tg-testimonialsslider" class="tg-testimonialsslider tg-testimonials owl-carousel">
 									<div class="item tg-testimonial">
-										<figure><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/author/imag-02.jpg" alt="image description"></figure>
+										<figure><img src="${pageContext.request.contextPath}/web/images/author/imag-02.jpg" alt="image description"></figure>
 										<blockquote><q>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore tolore magna aliqua enim ad minim veniam, quis nostrud exercitation ullamcoiars nisi ut aliquip commodo.</q></blockquote>
 										<div class="tg-testimonialauthor">
 											<h3>Holli Fenstermacher</h3>
@@ -1450,7 +1451,7 @@
 										</div>
 									</div>
 									<div class="item tg-testimonial">
-										<figure><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/author/imag-02.jpg" alt="image description"></figure>
+										<figure><img src="${pageContext.request.contextPath}/web/images/author/imag-02.jpg" alt="image description"></figure>
 										<blockquote><q>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore tolore magna aliqua enim ad minim veniam, quis nostrud exercitation ullamcoiars nisi ut aliquip commodo.</q></blockquote>
 										<div class="tg-testimonialauthor">
 											<h3>Holli Fenstermacher</h3>
@@ -1458,7 +1459,7 @@
 										</div>
 									</div>
 									<div class="item tg-testimonial">
-										<figure><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/author/imag-02.jpg" alt="image description"></figure>
+										<figure><img src="${pageContext.request.contextPath}/web/images/author/imag-02.jpg" alt="image description"></figure>
 										<blockquote><q>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore tolore magna aliqua enim ad minim veniam, quis nostrud exercitation ullamcoiars nisi ut aliquip commodo.</q></blockquote>
 										<div class="tg-testimonialauthor">
 											<h3>Holli Fenstermacher</h3>
@@ -1510,7 +1511,7 @@
 						</div>
 						<div id="tg-postslider" class="tg-postslider tg-blogpost owl-carousel">
 							<article class="item tg-post">
-								<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/blog/img-01.jpg" alt="image description"></a></figure>
+								<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/images/blog/img-01.jpg" alt="image description"></a></figure>
 								<div class="tg-postcontent">
 									<ul class="tg-bookscategories">
 										<li><a href="javascript:void(0);">Adventure</a></li>
@@ -1528,7 +1529,7 @@
 								</div>
 							</article>
 							<article class="item tg-post">
-								<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/blog/img-02.jpg" alt="image description"></a></figure>
+								<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/images/blog/img-02.jpg" alt="image description"></a></figure>
 								<div class="tg-postcontent">
 									<ul class="tg-bookscategories">
 										<li><a href="javascript:void(0);">Adventure</a></li>
@@ -1546,7 +1547,7 @@
 								</div>
 							</article>
 							<article class="item tg-post">
-								<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/blog/img-03.jpg" alt="image description"></a></figure>
+								<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/images/blog/img-03.jpg" alt="image description"></a></figure>
 								<div class="tg-postcontent">
 									<ul class="tg-bookscategories">
 										<li><a href="javascript:void(0);">Adventure</a></li>
@@ -1564,7 +1565,7 @@
 								</div>
 							</article>
 							<article class="item tg-post">
-								<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/blog/img-04.jpg" alt="image description"></a></figure>
+								<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/images/blog/img-04.jpg" alt="image description"></a></figure>
 								<div class="tg-postcontent">
 									<ul class="tg-bookscategories">
 										<li><a href="javascript:void(0);">Adventure</a></li>
@@ -1582,7 +1583,7 @@
 								</div>
 							</article>
 							<article class="item tg-post">
-								<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/blog/img-02.jpg" alt="image description"></a></figure>
+								<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/images/blog/img-02.jpg" alt="image description"></a></figure>
 								<div class="tg-postcontent">
 									<ul class="tg-bookscategories">
 										<li><a href="javascript:void(0);">Adventure</a></li>
@@ -1600,7 +1601,7 @@
 								</div>
 							</article>
 							<article class="item tg-post">
-								<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/blog/img-03.jpg" alt="image description"></a></figure>
+								<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/images/blog/img-03.jpg" alt="image description"></a></figure>
 								<div class="tg-postcontent">
 									<ul class="tg-bookscategories">
 										<li><a href="javascript:void(0);">Adventure</a></li>
@@ -1670,7 +1671,7 @@
 						<div class="tg-threecolumns">
 							<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 								<div class="tg-footercol">
-									<strong class="tg-logo"><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/flogo.png" alt="image description"></a></strong>
+									<strong class="tg-logo"><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/images/flogo.png" alt="image description"></a></strong>
 									<ul class="tg-contactinfo">
 										<li>
 											<i class="icon-apartment"></i>
@@ -1738,21 +1739,21 @@
 									<div class="tg-widgetcontent">
 										<ul>
 											<li>
-												<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/author/imag-09.jpg" alt="image description"></a></figure>
+												<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/images/author/imag-09.jpg" alt="image description"></a></figure>
 												<div class="tg-authornamebooks">
 													<h4><a href="javascript:void(0);">Jude Morphew</a></h4>
 													<p>21,658 Published Books</p>
 												</div>
 											</li>
 											<li>
-												<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/author/imag-10.jpg" alt="image description"></a></figure>
+												<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/images/author/imag-10.jpg" alt="image description"></a></figure>
 												<div class="tg-authornamebooks">
 													<h4><a href="javascript:void(0);">Shaun Humes</a></h4>
 													<p>20,257 Published Books</p>
 												</div>
 											</li>
 											<li>
-												<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/author/imag-11.jpg" alt="image description"></a></figure>
+												<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/images/author/imag-11.jpg" alt="image description"></a></figure>
 												<div class="tg-authornamebooks">
 													<h4><a href="javascript:void(0);">Kathrine Culbertson</a></h4>
 													<p>15,686 Published Books</p>
@@ -1789,7 +1790,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<span class="tg-paymenttype"><img src="${pageContext.request.contextPath}/web/${pageContext.request.contextPath}/web/images/paymenticon.png" alt="image description"></span>
+							<span class="tg-paymenttype"><img src="${pageContext.request.contextPath}/web/images/paymenticon.png" alt="image description"></span>
 							<span class="tg-copyright">2017 All Rights Reserved By &copy; Book Library</span>
 						</div>
 					</div>
