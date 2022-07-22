@@ -769,12 +769,7 @@
 										<li class="menu-item-has-children current-menu-item">
 											<a href="javascript:void(0);">Home</a>
 											<ul class="sub-menu">
-<<<<<<< HEAD:book_library/index.html
-<<<<<<< Updated upstream:book_library/index.html
-												<li class="current-menu-item"><a href="index-2.html">Home V one</a></li>
-=======
 												<li class="current-menu-item"><a href="/index-2">Home V one</a></li>
->>>>>>> d60a67b010f44797265ad7b792c88cd18750f315:ManagementBook/src/main/webapp/views/web/index.jsp
 												<li><a href="indexv2.html">Home V two</a></li>
 												<li><a href="indexv3.html">Home V three</a></li>
 											</ul>
@@ -784,13 +779,19 @@
 											<ul class="sub-menu">
 												<li><a href="authors.html">Authors</a></li>
 												<li><a href="authordetail.html">Author Detail</a></li>
-=======
-												<li class="current-menu-item"><a href="/index-2">Home V one</a></li>
->>>>>>> Stashed changes:ManagementBook/src/main/webapp/views/web/index.jsp
 											</ul>
 										</li>
 										<li><a href="products.html">Best Selling</a></li>
-										<li><a href="/login">Login</a></li>
+										<li><a href="products.html">Weekly Sale</a></li>
+										<li class="menu-item-has-children">
+											<a href="javascript:void(0);">Latest News</a>
+											<ul class="sub-menu">
+												<li><a href="newslist.html">News List</a></li>
+												<li><a href="newsgrid.html">News Grid</a></li>
+												<li><a href="newsdetail.html">News Detail</a></li>
+											</ul>
+										</li>
+										<li><a href="contactus.html">Contact</a></li>
 										<li class="menu-item-has-children current-menu-item">
 											<a href="javascript:void(0);"><i class="icon-menu"></i></a>
 											<ul class="sub-menu">
@@ -801,6 +802,9 @@
 														<li><a href="productdetail.html">Product Detail</a></li>
 													</ul>
 												</li>
+												<li><a href="aboutus.html">About Us</a></li>
+												<li><a href="404error.html">404 Error</a></li>
+												<li><a href="comingsoon.html">Coming Soon</a></li>
 											</ul>
 										</li>
 									</ul>

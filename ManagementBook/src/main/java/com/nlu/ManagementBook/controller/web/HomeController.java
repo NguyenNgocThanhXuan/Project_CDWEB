@@ -11,6 +11,21 @@ public class HomeController {
     public String homepage() {
         return "web/index";  
     }
+<<<<<<< HEAD
+	@RequestMapping("login")
+	 public String loginpage() {
+        return "web/login";  
+    }
+	@RequestMapping("product")
+	 public String productpage() {
+       return "web/products";  
+   }
+	@RequestMapping("productDetail")
+	 public String productDetailpage() {
+       return "web/productdetail";  
+   }
+	
+=======
 	@GetMapping("/index-2")
 	public String proDucts() {
         return "web/index-2"; 
@@ -32,4 +47,5 @@ public class HomeController {
         return "web/index-2";
     }
 
+>>>>>>> d60a67b010f44797265ad7b792c88cd18750f315
 }
