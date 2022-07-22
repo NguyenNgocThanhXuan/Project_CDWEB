@@ -11,6 +11,7 @@ public class HomeController {
     public String homepage() {
         return "web/index";  
     }
+<<<<<<< HEAD
 	@RequestMapping("login")
 	 public String loginpage() {
         return "web/login";  
@@ -24,4 +25,27 @@ public class HomeController {
        return "web/productdetail";  
    }
 	
+=======
+	@GetMapping("/index-2")
+	public String proDucts() {
+        return "web/index-2"; 
+    }
+	@GetMapping("/index-2")
+	public String proDuctDetail() {
+        return "web/index-2";  
+    }
+	@GetMapping("/index-2")
+	public String newList() {
+        return "web/index-2";  
+    }
+	@GetMapping("/index-2")
+	public String auThors() {
+        return "web/index-2";  
+    }
+	@GetMapping("/index-2")
+	public String index2() {
+        return "web/index-2";
+    }
+
+>>>>>>> d60a67b010f44797265ad7b792c88cd18750f315
 }
