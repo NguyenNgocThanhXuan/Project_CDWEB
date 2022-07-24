@@ -73,10 +73,7 @@
 									</li>
 								</ul>
 							</div>
-							<div class="tg-userlogin">
-								<figure><a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/web/images/users/img-01.jpg" alt="image description"></a></figure>
-								<span>Hi, John</span>
-							</div>
+							<div><a href="/login">Login</a></div>
 						</div>
 					</div>
 				</div>

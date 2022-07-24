@@ -17,7 +17,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
-<body  style="background-image: url('${pageContext.request.contextPath}/web/images/loginbook.jpg');">
+<body  style="background-image: url('${pageContext.request.contextPath}/web/images/login.jpg');">
 	<div class="container">
 		<div class="top">
 			<h1 id="title" class="hidden"><span id="logo">Book <span>Library</span></span></h1>
