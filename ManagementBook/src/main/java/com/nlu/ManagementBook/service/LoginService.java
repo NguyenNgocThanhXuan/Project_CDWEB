@@ -9,12 +9,16 @@ import org.springframework.stereotype.Service;
 import com.nlu.ManagementBook.common.APIResponse;
 import com.nlu.ManagementBook.dto.LogInRequestDTO;
 import com.nlu.ManagementBook.dto.SignUpRequestDTO;
+<<<<<<< HEAD
+import com.nlu.ManagementBook.entity.Users;
+=======
 import com.nlu.ManagementBook.entity.User;
 import com.nlu.ManagementBook.repo.UserRepository;
 import com.nlu.ManagementBook.util.JwtUtils;
 
 import io.jsonwebtoken.Jwts;
 
+>>>>>>> main
 @Service
 public class LoginService {
 	@Autowired
@@ -23,10 +27,20 @@ public class LoginService {
 	private JwtUtils jwtUtils;
 
 	public APIResponse signUp(SignUpRequestDTO signUpRequestDTO) {
+<<<<<<< HEAD
+		// TODO Auto-generated method stub
+		APIResponse apiResponse= new APIResponse();
+		//validation
+		
+		//dto to entity
+		Users userEntity= new Users();
+		
+=======
 
 		APIResponse apiResponse = new APIResponse();
 		// dto to entity
 		User userEntity = new User();
+>>>>>>> main
 		userEntity.setName(signUpRequestDTO.getName());
 		userEntity.setEmail(signUpRequestDTO.getEmail());
 		userEntity.setActive(Boolean.TRUE);
