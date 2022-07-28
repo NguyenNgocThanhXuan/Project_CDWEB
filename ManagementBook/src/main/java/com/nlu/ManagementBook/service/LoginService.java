@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 import com.nlu.ManagementBook.common.APIResponse;
 import com.nlu.ManagementBook.dto.SignUpRequestDTO;
-import com.nlu.ManagementBook.entity.User;
+import com.nlu.ManagementBook.entity.Users;
 @Service
 public class LoginService {
 @Autowired
@@ -16,7 +16,7 @@ public class LoginService {
 		//validation
 		
 		//dto to entity
-		User userEntity= new User();
+		Users userEntity= new Users();
 		
 		userEntity.setName(signUpRequestDTO.getName());
 		userEntity.setEmail(signUpRequestDTO.getEmail());

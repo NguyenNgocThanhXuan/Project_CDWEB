@@ -1,5 +1,5 @@
 body {
-	background: url("${pageContext.request.contextPath}/web/images/loginbook.jpg") no-repeat center center fixed;
+	background: url("../images/photo_bg.jpg") no-repeat center center fixed;
 	background-size: cover;
 	font-size: 16px;
 	font-family: 'Lato', sans-serif;
