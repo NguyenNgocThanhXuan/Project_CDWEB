@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import com.nlu.ManagementBook.common.APIResponse;
+import com.nlu.ManagementBook.dto.LogInRequestDTO;
 import com.nlu.ManagementBook.dto.SignUpRequestDTO;
 import com.nlu.ManagementBook.service.LoginService;
 
@@ -22,4 +23,11 @@ public ResponseEntity<APIResponse> signUp(@RequestBody SignUpRequestDTO signUpRe
 		
 		return ResponseEntity.status(apiResponse.getStatus()).body(apiResponse);
 	}
+	@PostMapping("/login")
+	public ResponseEntity<APIResponse> logIn(@RequestBody LogInRequestDTO logInRequestDTO){
+			APIResponse apiResponse= loginService.logIn(logInRequestDTO);
+			
+			
+			return ResponseEntity.status(apiResponse.getStatus()).body(apiResponse);
+		}
 }
