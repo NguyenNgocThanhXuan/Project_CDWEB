@@ -15,19 +15,18 @@ import com.nlu.ManagementBook.service.LoginService;
 public class LoginController {
 	@Autowired
 	private LoginService loginService;
-	
+
 	@PostMapping("/signup")
-public ResponseEntity<APIResponse> signUp(@RequestBody SignUpRequestDTO signUpRequestDTO){
-		APIResponse apiResponse= loginService.signUp(signUpRequestDTO);
-		
-		
+	public ResponseEntity<APIResponse> signUp(@RequestBody SignUpRequestDTO signUpRequestDTO) {
+		APIResponse apiResponse = loginService.signUp(signUpRequestDTO);
+
 		return ResponseEntity.status(apiResponse.getStatus()).body(apiResponse);
 	}
+
 	@PostMapping("/login")
-	public ResponseEntity<APIResponse> logIn(@RequestBody LogInRequestDTO logInRequestDTO){
-			APIResponse apiResponse= loginService.logIn(logInRequestDTO);
-			
-			
-			return ResponseEntity.status(apiResponse.getStatus()).body(apiResponse);
-		}
+	public ResponseEntity<APIResponse> logIn(@RequestBody LogInRequestDTO logInRequestDTO) {
+		APIResponse apiResponse = loginService.logIn(logInRequestDTO);
+
+		return ResponseEntity.status(apiResponse.getStatus()).body(apiResponse);
+	}
 }
