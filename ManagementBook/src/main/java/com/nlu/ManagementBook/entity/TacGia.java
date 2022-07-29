@@ -1,6 +1,5 @@
 package com.nlu.ManagementBook.entity;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,63 +12,72 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "nhaxuatban")
-public class NhaSanXuat implements Serializable {
+@Table(name = "tacgia")
+public class TacGia {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@Column(name = "ten")
-	private String ten;
+	@Column(name = "hoten")
+	private String hoten;
 	
 	@Column(name = "moTa")
 	private String mota;
 	
-	@OneToMany(mappedBy = "nhaxuatban")
-	private List<Sach> dsSach = new ArrayList<>();
 	
+	@OneToMany(mappedBy = "tacgia")
+	private List<Sach> dsSach = new ArrayList<>();
 
-	public NhaSanXuat(Long id, String ten, String mota, List<Sach> dsSach) {
+
+	public TacGia(Long id, String hoten, String mota, List<Sach> dsSach) {
 		super();
 		this.id = id;
-		this.ten = ten;
+		this.hoten = hoten;
 		this.mota = mota;
 		this.dsSach = dsSach;
 	}
+
 
 	public Long getId() {
 		return id;
 	}
 
+
 	public void setId(Long id) {
 		this.id = id;
 	}
 
-	public String getTen() {
-		return ten;
+
+	public String getHoten() {
+		return hoten;
 	}
 
-	public void setTen(String ten) {
-		this.ten = ten;
+
+	public void setHoten(String hoten) {
+		this.hoten = hoten;
 	}
+
 
 	public String getMota() {
 		return mota;
 	}
 
+
 	public void setMota(String mota) {
 		this.mota = mota;
 	}
 
+
 	public List<Sach> getDsSach() {
 		return dsSach;
 	}
+
 
 	public void setDsSach(List<Sach> dsSach) {
 		this.dsSach = dsSach;
 	}
 	
 	
-	
+
 }
