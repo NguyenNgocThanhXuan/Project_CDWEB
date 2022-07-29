@@ -1,5 +1,8 @@
 package com.nlu.ManagementBook.dto;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class SignUpRequestDTO {
 
 private String name;
@@ -7,6 +10,19 @@ private String gender;
 private String email;
 private String phoneNumber;
 private String password;
+
+
+public SignUpRequestDTO() {
+	super();
+}
+public SignUpRequestDTO(String name, String gender, String email, String phoneNumber, String password) {
+	super();
+	this.name = name;
+	this.gender = gender;
+	this.email = email;
+	this.phoneNumber = phoneNumber;
+	this.password = password;
+}
 public String getName() {
 	return name;
 }
