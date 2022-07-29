@@ -9,7 +9,7 @@ public class HomeController {
 	@RequestMapping("home")
 //	@ResponseBody
     public String homepage() {
-        return "web/index";  
+        return "web/cart";  
     }
 	@GetMapping("/login")
 	public String proDucts() {
