@@ -9,16 +9,10 @@ import org.springframework.stereotype.Service;
 import com.nlu.ManagementBook.common.APIResponse;
 import com.nlu.ManagementBook.dto.LogInRequestDTO;
 import com.nlu.ManagementBook.dto.SignUpRequestDTO;
-<<<<<<< HEAD
 import com.nlu.ManagementBook.entity.Users;
-=======
-import com.nlu.ManagementBook.entity.User;
 import com.nlu.ManagementBook.repo.UserRepository;
 import com.nlu.ManagementBook.util.JwtUtils;
 
-import io.jsonwebtoken.Jwts;
-
->>>>>>> main
 @Service
 public class LoginService {
 	@Autowired
@@ -27,20 +21,14 @@ public class LoginService {
 	private JwtUtils jwtUtils;
 
 	public APIResponse signUp(SignUpRequestDTO signUpRequestDTO) {
-<<<<<<< HEAD
-		// TODO Auto-generated method stub
-		APIResponse apiResponse= new APIResponse();
-		//validation
-		
-		//dto to entity
-		Users userEntity= new Users();
-		
-=======
 
+		// TODO Auto-generated method stub
 		APIResponse apiResponse = new APIResponse();
+		// validation
+
 		// dto to entity
-		User userEntity = new User();
->>>>>>> main
+		Users userEntity = new Users();
+
 		userEntity.setName(signUpRequestDTO.getName());
 		userEntity.setEmail(signUpRequestDTO.getEmail());
 		userEntity.setActive(Boolean.TRUE);
@@ -65,7 +53,7 @@ public class LoginService {
 		// TODO Auto-generated method stub
 		APIResponse apiResponse = new APIResponse();
 		// verify user exist with given email & password
-		User user = userRepository.findByEmail(logInRequestDTO.getEmail(), logInRequestDTO.getPassword());
+		Users user = userRepository.findByEmail(logInRequestDTO.getEmail(), logInRequestDTO.getPassword());
 		// response
 		if (user == null) {
 			apiResponse.setData("login fail");
